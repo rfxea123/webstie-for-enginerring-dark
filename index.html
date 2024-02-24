@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="content flex_space">
+            <div class="logo">
+                <a href="#">Engineer</a>
+            </div>
+            <div class="navlinks">
+              <ul id="menulist">
+                <li><a href="#home" style="--i:1">Home</a> </li>
+                <li><a href="#about" style="--i:2">About</a> </li>
+                <li><a href="#services" style="--i:3">services</a> </li>
+                <li><a href="#project" style="--i:4">project</a> </li>
+                <li><a href="#partner" style="--i:5">Partner</a> </li>
+                <li><a href="#contact" style="--i:6">Contact</a> </li>
+                <li> <button class="primary-btn">Arabic</button> </li>
+              </ul>
+              <span class="fa fa-bars" onclick="menutoggle()"></span>
+            </div>
+          </div>
+    </header>
+
+    <script>
+        var menulist = document.getElementById('menulist');
+        menulist.style.maxHeight = "0px";
+    
+        function menutoggle() {
+          if (menulist.style.maxHeight == "0px") {
+            menulist.style.maxHeight = "100vh";
+          } else {
+            menulist.style.maxHeight = "0px";
+          }
+        }
+      </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ahmed Mohammd</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                <br> At temporibus nemo velit non sint cum ullam unde optio, distinctio provident.</p>
+            <div class="home-sci">
+                <a href="https://www.facebook.com/" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="https://web.whatsapp.com/" style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.tiktok.com/" style="--i:10"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+        <div class="prsonal">
+            <img src="logo1.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="logo1.jpg" alt="about img">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Engineer!</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid quia modi perferendis ipsa animi explicabo ab aspernatur sequi veniam voluptatem suscipit repudiandae maxime hic eos quaerat accusantium consectetur, nulla tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore molestias repellat quod nam nesciunt vitae! Blanditiis modi voluptatem quae nam, non quam eos praesentium optio alias sed inventore dolor accusantium!</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-wrench' style='color:#663399'  ></i>
+                        <h2>Maintenance</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias est veniam mollitia voluptas eum, voluptate at impedit fugit incidunt tempore ex, vero quae accusamus quibusdam odio vel aliquid velit neque!</p>
+                    </div>
+                    <div>
+                        <i class='bx bx-cloud-lightning' style='color:#663399'  ></i>
+                        <h2>electrical engineering</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias est veniam mollitia voluptas eum, voluptate at impedit fugit incidunt tempore ex, vero quae accusamus quibusdam odio vel aliquid velit neque!</p>
+                    </div>
+                    <div>
+                        <i class='bx bx-cog' style='color:#663399'></i>
+                        <h2>Devices Maintenance</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias est veniam mollitia voluptas eum, voluptate at impedit fugit incidunt tempore ex, vero quae accusamus quibusdam odio vel aliquid velit neque!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="profolio" id="project">
+            <div class="main-text" id="project">
+                <h2>Latest <span>Project</span></h2>
+
+                <div class="profolio-content">
+                    <div class="row">
+                        <img src="111.jpg">
+                        <div class="layer">
+                            <h5>Planning</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolores quos quaerat possimus quidem commodi! Maiores, dolorum nemo tempore nam molestias laborum pariatur, laboriosam, quia porro deserunt perspiciatis amet non.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="112.jpg">
+                        <div class="layer">
+                            <h5>Find the solution</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolores quos quaerat possimus quidem commodi! Maiores, dolorum nemo tempore nam molestias laborum pariatur, laboriosam, quia porro deserunt perspiciatis amet non.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="113.jpg">
+                        <div class="layer">
+                            <h5>maintenance</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolores quos quaerat possimus quidem commodi! Maiores, dolorum nemo tempore nam molestias laborum pariatur, laboriosam, quia porro deserunt perspiciatis amet non.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partner" id="partner">
+        <div class="partner-text">
+            <h2>Partners</h2>
+        </div>
+        
+        <div class="content mtop">
+            <div class="owl-carousel owl-carousel1 owl-theme">
+
+              <div class="items">
+                <div class="img">
+                  <img src="pt1.jpg" alt="">
+                </div>
+              </div>
+
+              <div class="items">
+                <div class="img">
+                  <img src="pt2.jpg" alt="">
+                </div>
+              </div>
+
+              <div class="items">
+                <div class="img">
+                  <img src="pt3.jpg" alt="">
+                </div>
+              </div>
+
+              <div class="items">
+                <div class="img">
+                  <img src="pt4.jpg" alt="">
+                </div>
+              </div>
+
+              <div class="items">
+                <div class="img">
+                  <img src="pt5.jpg" alt="">
+                </div>
+              </div>
+
+              <div class="items">
+                <div class="img">
+                  <img src="pt6.jpg" alt="">
+                </div>
+              </div>
+
+              <div class="items">
+                <div class="img">
+                  <img src="pt7.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <script>
+        $('.owl-carousel1').owlCarousel({
+          loop: true,
+          margin: 0,
+          dots: false,
+          autoplay: true,
+          autoplayTimeout: 1000,
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            768: {
+              items: 2,
+            },
+            1000: {
+              items: 3
+            }
+          }
+        })
+      </script>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique dolore esse magni cum repudiandae, voluptatibus voluptate accusantium libero, reiciendis ut possimus molestias aliquid in dolor earum consectetur sit delectus ipsum.</p>
+            <div class="contact-list">
+                <li> <i class='bx bx-send'></i>contact@gmail.com</li>
+                <li> <i class='bx bxs-phone'></i>0123456789</li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/" style="--i:8"><i class='bx bxl-instagram'></i></i></a>
+                <a href="https://web.whatsapp.com/" style="--i:9"><i class='bx bxl-whatsapp'></i></i></a>
+                <a href="https://www.linkedin.com/" style="--i:10"><i class='bx bxl-linkedin'></i></i></i></a>
+            </div>
+
+        </div>
+
+    <div class="box">
+        <div class="contact-form">
+            <form action="">
+                <input type="" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+
+                <input type="" placeholder="Enter Your Subject">
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
+    </div>
+
+    </section>
+
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/032d11eac3.js" crossorigin="anonymous"></script>
+</body>
+</html>
