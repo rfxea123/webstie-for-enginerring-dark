@@ -368,6 +368,96 @@ header .navlinks span {
     margin: 20px;
 }
 
+.prices h2{
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+.pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+}
+  
+.pricing-card{
+    flex: 1;
+    max-width: 360px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+}
+  
+.pricing-card-header{
+    background-color: #9370DB;
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+}
+  
+.pricing-card:hover .pricing-card-header{
+    box-shadow: 0 0 0 8.5em #9370DB;
+}
+  
+.price{
+    font-size: 70px;
+    color: #9370DB;
+    margin: 40px 0;
+    transition: .2s linear;
+}
+  
+.price sup, .price span{
+    font-size: 22px;
+    font-weight: 700;
+}
+  
+.pricing-card:hover .price{
+    color: #fff;
+}
+  
+.pricing-card li{
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+  
+.order-btn{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid #9370DB;
+    color: #9370DB;
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+}
+  
+.order-btn:hover{
+    background-color: #9370DB;
+    color: #fff;
+}
+  
+@media screen and (max-width:1100px){
+    .pricing-card{
+      flex: 50%;
+    }
+}
+
 .contact{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
